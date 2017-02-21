@@ -151,7 +151,7 @@ services:
     volumes_from:
       - harbor-setupwrapper
     ports:
-      - 80:80
+      - 80:8082
       - 443:443
     depends_on:
       - log
